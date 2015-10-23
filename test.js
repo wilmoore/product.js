@@ -35,5 +35,10 @@ test('functor', function (t) {
   t.plan(1)
   var tenTimes = product(10)
   var multipliers = [1, 2, 3, 4, 5]
-  t.deepEqual(multipliers.map(tenTimes), [ 10, 20, 30, 40, 50 ])
+  t.deepEqual(multipliers.map(tenTimes), [ 10, 20, 30, 40, 50 ], 'maps all multipliers correctly')
+})
+
+test('floating point', function (t) {
+  t.plan(1)
+  t.equal(product(0.1, 0.2), 0.02, 'results in correct number of decimal places')
 })

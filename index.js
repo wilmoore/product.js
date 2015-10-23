@@ -26,5 +26,5 @@ module.exports = curry2(product)
  */
 
 function product (multiplicand, multiplier) {
-  return multiplicand * multiplier
+  return (multiplicand * 10) * (multiplier * 10) / 100
 }
