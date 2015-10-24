@@ -1,7 +1,7 @@
 {
   "name": "product",
   "description": "Curried calculation of the product of multiplying multiplicand and multiplier.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {
     "url": "https://github.com/wilmoore/product.js/issues"
