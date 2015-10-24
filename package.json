@@ -24,9 +24,12 @@
   ],
   "homepage": "https://github.com/wilmoore/product.js",
   "keywords": [
+    "arithmetic",
+    "arithmetics",
     "curried",
     "curry",
     "factor",
+    "math",
     "partial",
     "partialapplication",
     "product",
